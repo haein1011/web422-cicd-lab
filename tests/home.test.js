@@ -8,7 +8,7 @@ describe("Home Page", () => {
     const heading = container.querySelector("h1");
 
     expect(heading).toBeTruthy();
-    expect(heading.textContent).toBe("Kyler Murray is QB1 on Minnesota");
+    expect(heading.textContent).toBe("Kyler Murray is QB1 for Minnesota");
   });
 
   test("renders a link to the /vehicles page", () => {
